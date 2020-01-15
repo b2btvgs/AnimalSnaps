@@ -1,0 +1,28 @@
+{
+  "name": "animalsnaps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "fetch-mock": "^8.3.1",
+    "jest": "^24.9.0",
+    "jest-mock": "^24.9.0",
+    "nock": "^11.7.2"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.0"
+  },
+  "jest": {
+    "automock": false,
+    "setupFiles": [
+      "./setupJest.js"
+    ]
+  }
+}
